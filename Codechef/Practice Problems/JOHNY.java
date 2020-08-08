@@ -39,8 +39,7 @@ class Codechef
 		     {
 		         if(uncle==a[k])
 		          {
-		            pos=k;
-		            break;
+		            pos=k;break;
 		          }
 		     }
 		     System.out.println(pos+1);
