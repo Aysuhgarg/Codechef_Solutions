@@ -21,7 +21,7 @@ class Codechef
 		    {
 		        if((str.charAt(i)=='x') && (str.charAt(i+1)=='y'))
 		        {
-		            i+=1; count++; continue;
+		            i+=1;count++;continue;
 		        }
 		        else if( (str.charAt(i)=='y') && (str.charAt(i+1)=='x'))
 		        {
