@@ -1,3 +1,5 @@
+//https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+//question no 17
 import java.io.*;
 import java.util.*;
 public class Get_kpc {
@@ -11,7 +13,7 @@ public class Get_kpc {
         }
 
     public static String pad[]={".;","abc","def","ghi","jkl","mno","pqrs","tu","vwx","yz"};
-    
+
         public static ArrayList<String> getkpc(String str) {
             
             if(str.length()==1)
